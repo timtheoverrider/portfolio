@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tim Warquez | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%237c5cff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='32' cy='34' r='11' fill='%230d122b' stroke='%23a7add3'/%3E%3Ccircle cx='32' cy='22' r='6' fill='%230d122b' stroke='%23a7add3'/%3E%3Cpath d='M22 30 L10 24'/%3E%3Cpath d='M22 36 L8 36'/%3E%3Cpath d='M22 42 L10 48'/%3E%3Cpath d='M42 30 L54 24'/%3E%3Cpath d='M42 36 L56 36'/%3E%3Cpath d='M42 42 L54 48'/%3E%3C/g%3E%3C/svg%3E" />
     <meta name="description" content="Portfolio of Nightreign — projects, contact, and more." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -27,28 +30,29 @@
               <span class="name-3d" aria-label="Tim Warquez">Tim Warquez</span>
             </h1>
             <p class="hero-subtitle reveal">
-              4th-year Information Technology student
+             I am a dedicated and passionate aspiring Cyber Security Specialist with a strong foundation in ethical hacking, tech support, data analysis, and network engineering. I am committed to enhancing my skills and knowledge in the field of cybersecurity to contribute effectively to the protection of digital assets and systems.
             </p>
             <div class="hero-cta reveal">
-              <a class="button primary tilt" href="#projects">See Projects</a>
+              <a class="button primary tilt" href="#projects">See Project</a>
               <a class="button ghost tilt" href="#contact">Contact Me</a>
             </div>
           </div>
 
           <div class="hero-scene" aria-hidden="true">
             <div class="badge-scene">
-              <div class="lanyard">
-                <span class="lanyard-strap left"></span>
-                <span class="lanyard-strap right"></span>
-                <span class="lanyard-clip"></span>
-              </div>
               <div class="id-badge tilt" aria-label="ID badge">
                 <div class="badge-photo is-contain">
                   <img src="assets/profile.webp" alt="Portrait of Tim Warquez" />
                 </div>
                 <div class="badge-info">
                   <div class="badge-name">Tim Warquez</div>
-                  <div class="badge-number">04-2223-034192</div>
+                  <div class="badge-title">
+                    <span class="title-chip">Cyber Security Specialist</span>
+                    <span class="title-chip">Ethical Hacker</span>
+                    <span class="title-chip">Tech Support</span>
+                    <span class="title-chip">Data Analyst</span>
+                    <span class="title-chip">Net Engineer</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -68,7 +72,7 @@
                 <h3 class="project-title">RR Car Rental Services</h3>
                 <p class="project-desc">Car rental service site with responsive UI.</p>
                 <div class="project-tags">
-                  <span>HTML</span><span>CSS</span><span>JS</span><span>Python</span><span>Xampp</span>
+                  <span>HTML</span><span>CSS</span><span>JS</span><span>Python</span><span>SQL</span>
                 </div>
               </div>
             </article>
@@ -104,26 +108,57 @@
         </div>
       </section>
 
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title" class="section-title reveal">Skill Sets</h2>
+          <div class="project-tags reveal" aria-label="Skill set">
+            <span>Networking & System Fundamentals</span>
+            <span>Operating Systems</span>
+            <span>Metasploit</span>
+            <span>Nmap</span>
+            <span>Burp Suit</span>
+            <span>Social engineering techniques</span>
+            <span>Data Visualization & BI Tools</span>
+            <span>Linux networking (iptables, netstat, tcpdump)</span>
+            <span>Cloud networking (AWS VPC, Azure VNets, GCP networking)</span>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" class="section" aria-labelledby="contact-title">
         <div class="container">
           <h2 id="contact-title" class="section-title reveal">Contact</h2>
           <div class="contact-grid">
-            <a class="contact-card tilt reveal" href="mailto:timfdwarquez@gmail.com" aria-label="Email">
-              <div class="icon">✉️</div>
+            <a class="contact-card tilt reveal" href="mailto:timfdwarquez@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false" role="img">
+                  <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                  <path d="M3 7l9 7 9-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5 8v8M19 8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
               <div class="contact-content">
                 <div class="label">Email</div>
                 <div class="value">timfdwarquez@gmail.com</div>
               </div>
             </a>
-            <a class="contact-card tilt reveal" href="https://github.com/timtheoverrider" rel="noopener" aria-label="GitHub">
-              <div class="icon">🐙</div>
+            <a class="contact-card tilt reveal" href="https://github.com/timtheoverrider" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false" role="img">
+                  <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.418-1.305.76-1.605-2.665-.304-5.466-1.332-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.803 5.624-5.475 5.922.43.372.812 1.103.812 2.222 0 1.604-.015 2.896-.015 3.293 0 .32.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </div>
               <div class="contact-content">
                 <div class="label">GitHub</div>
                 <div class="value">@timtheoverrider</div>
               </div>
             </a>
-            <a class="contact-card tilt reveal" href="https://www.linkedin.com/in/tim-warquez-939348333/" rel="noopener" aria-label="LinkedIn">
-              <div class="icon">💼</div>
+            <a class="contact-card tilt reveal" href="https://www.linkedin.com/in/tim-warquez-939348333/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false" role="img">
+                  <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.78v2.18h.07c.66-1.25 2.28-2.57 4.7-2.57 5.03 0 5.96 3.31 5.96 7.61V24h-5v-7.56c0-1.8-.03-4.11-2.5-4.11-2.5 0-2.88 1.95-2.88 3.98V24h-5V8z"/>
+                </svg>
+              </div>
               <div class="contact-content">
                 <div class="label">LinkedIn</div>
                 <div class="value">/in/tim-warquez</div>
