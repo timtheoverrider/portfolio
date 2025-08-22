@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tim Warquez | Portfolio</title>
+    <meta name="description" content="Portfolio of Nightreign — projects, contact, and more." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background spiders -->
+    <div class="spider"></div>
+    <div class="spider"></div>
+    <div class="spider"></div>
+    <div class="spider"></div>
+    <div class="spider"></div>
+
+    <main id="top" class="site-main">
+      <section class="hero section" aria-labelledby="intro-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 id="intro-title" class="hero-title reveal">
+              <span class="title-line">Hi, I'm</span>
+              <span class="name-3d" aria-label="Tim Warquez">Tim Warquez</span>
+            </h1>
+            <p class="hero-subtitle reveal">
+              4th-year Information Technology student
+            </p>
+            <div class="hero-cta reveal">
+              <a class="button primary tilt" href="#projects">See Projects</a>
+              <a class="button ghost tilt" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-scene" aria-hidden="true">
+            <div class="badge-scene">
+              <div class="lanyard">
+                <span class="lanyard-strap left"></span>
+                <span class="lanyard-strap right"></span>
+                <span class="lanyard-clip"></span>
+              </div>
+              <div class="id-badge tilt" aria-label="ID badge">
+                <div class="badge-photo is-contain">
+                  <img src="assets/profile.webp" alt="Portrait of Tim Warquez" />
+                </div>
+                <div class="badge-info">
+                  <div class="badge-name">Tim Warquez</div>
+                  <div class="badge-number">04-2223-034192</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title" class="section-title reveal">Project</h2>
+          <div class="projects-grid">
+            <article class="project-card tilt reveal">
+              <div class="project-media is-contain">
+                <img src="assets/rr car rental project.jpg" alt="RR Car Rental Services preview" loading="lazy" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">RR Car Rental Services</h3>
+                <p class="project-desc">Car rental service site with responsive UI.</p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span><span>JS</span><span>Python</span><span>Xampp</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificates" class="section" aria-labelledby="certs-title">
+        <div class="container">
+          <h2 id="certs-title" class="section-title reveal">Certificates</h2>
+          <div class="certs-grid">
+            <article class="cert-card tilt reveal">
+              <div class="cert-icon">
+                <img src="assets/icip-badge.png" alt="OPSWAT ICIP badge" loading="lazy" />
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-name">Introduction to Critical Infrastructure Protection (ICIP)</h3>
+                <div class="cert-meta">OPSWAT Academy</div>
+                <div class="cert-links">
+                </div>
+            </article>
+
+            <article class="cert-card tilt reveal">
+              <div class="cert-icon">
+                <img src="assets/ethical-hacker-badge.png" alt="Cisco Networking Academy Ethical Hacker badge" loading="lazy" />
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-name">Ethical Hacker</h3>
+                <div class="cert-meta">Cisco Networking Academy</div>
+                <div class="cert-links">
+              </div>
+            </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title" class="section-title reveal">Contact</h2>
+          <div class="contact-grid">
+            <a class="contact-card tilt reveal" href="mailto:timfdwarquez@gmail.com" aria-label="Email">
+              <div class="icon">✉️</div>
+              <div class="contact-content">
+                <div class="label">Email</div>
+                <div class="value">timfdwarquez@gmail.com</div>
+              </div>
+            </a>
+            <a class="contact-card tilt reveal" href="https://github.com/timtheoverrider" rel="noopener" aria-label="GitHub">
+              <div class="icon">🐙</div>
+              <div class="contact-content">
+                <div class="label">GitHub</div>
+                <div class="value">@timtheoverrider</div>
+              </div>
+            </a>
+            <a class="contact-card tilt reveal" href="https://www.linkedin.com/in/tim-warquez-939348333/" rel="noopener" aria-label="LinkedIn">
+              <div class="icon">💼</div>
+              <div class="contact-content">
+                <div class="label">LinkedIn</div>
+                <div class="value">/in/tim-warquez</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Tim Warquez. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
+
